@@ -1,0 +1,17 @@
+.description {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.description.show {
+    opacity: 1;
+}
+
+.Image {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.Image.show {
+    opacity: 1;
+}
