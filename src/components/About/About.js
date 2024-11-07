@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Nav from "/Users/mohamadelgendy/Desktop/mohamadportfolio/src/components/Nav/Nav.js";
+import Footer from "../Footer/Footer";
 import "./About.css";
 const descriptionWordsArr = [
   "A Full Stack Developer",
@@ -66,7 +67,7 @@ function About() {
             width={250}
           ></img>
           <div className="flex items-center justify-center flex-col max-w-screen-lg bg-slate-400 gap-7 pb-7">
-            <i></i>
+            <i className="fa-solid fa-circle-info fa-beat-fade text-2xl mt-2"></i>
             <h3>Full Stack Developer</h3>
             <p>
               React | Node | Express | MongoDB | JavaScript | HTML | CSS |
@@ -82,6 +83,7 @@ function About() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
