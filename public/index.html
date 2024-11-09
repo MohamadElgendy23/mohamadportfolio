@@ -26,6 +26,7 @@
     -->
     <title>React App</title>
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <script src="https://kit.fontawesome.com/74427fbcac.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -38,8 +39,15 @@
       You can add webfonts, meta tags, or analytics to this file.
       The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
+      To begin the developmenzt, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+		</script>
   </body>
 </html>
