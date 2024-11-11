@@ -27,8 +27,14 @@ function Projects() {
               line.
             </p>
             <p className="text-center pt-5">
-              <span className="italic">Github Link: </span>
-              https://github.com/MohamadElgendy23/HospitalManagementApp
+              <a
+                href="https://github.com/MohamadElgendy23/HospitalManagementApp"
+                target="_blank"
+                rel="noreferrer"
+                className="italic"
+              >
+                Github Link
+              </a>
             </p>
           </div>
           <div id="project2">
@@ -40,10 +46,23 @@ function Projects() {
               users can view available NBA teams and each team's roster.
             </p>
             <p className="text-center pt-5">
-              <span className="italic">Github Link: </span>
-              https://github.com/MohamadElgendy23/rosterviewer <br />
-              <span className="italic">Vercel Link: </span>
-              https://rosterviewerdeploy.vercel.app
+              <a
+                href="https://github.com/MohamadElgendy23/rosterviewer"
+                target="_blank"
+                rel="noreferrer"
+                className="italic"
+              >
+                Github Link
+              </a>
+              <br />
+              <a
+                href="https://rosterviewerdeploy.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+                className="italic"
+              >
+                Vercel Link
+              </a>
             </p>
           </div>
           <div id="project3">
@@ -56,8 +75,15 @@ function Projects() {
               add/edit/view/delete reviews.
             </p>
             <p className="text-center pt-5">
-              <span className="italic">Github Link: </span>
-              https://github.com/MohamadElgendy23/flix-for-all <br />
+              <a
+                href="https://github.com/MohamadElgendy23/flix-for-all"
+                target="_blank"
+                rel="noreferrer"
+                className="italic"
+              >
+                Github Link
+              </a>
+              <br />
             </p>
           </div>
         </div>
