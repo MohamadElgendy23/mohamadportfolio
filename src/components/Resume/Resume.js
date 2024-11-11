@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import Nav from "/Users/mohamadelgendy/Desktop/mohamadportfolio/src/components/Nav/Nav.js";
+import React, { useEffect, useState } from "react";
+import Nav from "../Nav/Nav";
 import "./Resume.css";
 function Resume() {
   const [showResume, setShowResume] = useState(false);
@@ -7,6 +7,9 @@ function Resume() {
     setShowResume(true);
   }
   function ResumePage() {
+    useEffect(() => {
+      document.getElementById("ResumePage").style.animation = "";
+    }, []);
     return (
       <div
         id="ResumePage"

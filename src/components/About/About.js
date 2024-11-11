@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Nav from "/Users/mohamadelgendy/Desktop/mohamadportfolio/src/components/Nav/Nav.js";
+import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 import "./About.css";
 const descriptionWordsArr = [
