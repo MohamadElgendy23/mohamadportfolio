@@ -13,7 +13,10 @@ function Projects() {
             <i className="fa-solid fa-clipboard"></i>
           </span>
         </h1>
-        <div className="flex items-center justify-center flex-col gap-10">
+        <div
+          className="flex items-center justify-center flex-col gap-10"
+          id="projects"
+        >
           <div id="project1">
             <h2 className="font-bold mb-3">Hospital Management Application</h2>
             <span className="text-2xl text-blue-800">&#63;</span>

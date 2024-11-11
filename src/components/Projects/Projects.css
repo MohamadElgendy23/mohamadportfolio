@@ -16,18 +16,20 @@
     }
 }
 
+#projects {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);;
+}
+
+#project1, #project2, #project3 {
+    background-color: slategray;
+    padding: 10px;
+}
+
 #project1, #project3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     animation: float-to-left 2500ms ease-out forwards;
 }
 
 #project2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     animation: float-to-right 2500ms ease-out forwards;
 }
