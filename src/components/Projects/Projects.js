@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
-
+import "./Projects.css";
 function Projects() {
   return (
     <div className="Projects">
@@ -14,7 +14,7 @@ function Projects() {
           </span>
         </h1>
         <div className="flex items-center justify-center flex-col gap-10">
-          <div>
+          <div id="project1">
             <h2 className="font-bold mb-3">Hospital Management Application</h2>
             <span className="text-2xl text-blue-800">&#63;</span>
             <p className="text-center">
@@ -28,7 +28,7 @@ function Projects() {
               https://github.com/MohamadElgendy23/HospitalManagementApp
             </p>
           </div>
-          <div>
+          <div id="project2">
             <h2 className="font-bold mb-3">Roster Viewer</h2>
             <span className="text-2xl text-blue-800">&#63;</span>
             <p className="text-center">
@@ -43,7 +43,7 @@ function Projects() {
               https://rosterviewerdeploy.vercel.app
             </p>
           </div>
-          <div>
+          <div id="project3">
             <h2 className="font-bold mb-3">
               Flixforall - All in One Movie App
             </h2>

@@ -1,0 +1,33 @@
+@keyframes float-to-left  {
+    0% {
+        transform: translateX(2000px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes float-to-right  {
+    0% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+#project1, #project3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: float-to-left 2500ms ease-out forwards;
+}
+
+#project2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: float-to-right 2500ms ease-out forwards;
+}
