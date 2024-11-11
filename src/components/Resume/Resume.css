@@ -14,22 +14,12 @@ html {
     }
   }
 
-@keyframes move-up {
-    0% {
-        transform: translateY(-1000);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-  
 
 #down-arrow {
     animation: bounce 1s infinite alternate;
 }
 
 #ResumePage {
-    animation: move-up 2500ms ease-out forwards;
     height: 100vh;
     display: flex;
     justify-content: center;

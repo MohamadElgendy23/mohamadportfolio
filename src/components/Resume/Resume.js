@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Nav from "/Users/mohamadelgendy/Desktop/mohamadportfolio/src/components/Nav/Nav.js";
-import Footer from "../Footer/Footer";
 import "./Resume.css";
 function Resume() {
   const [showResume, setShowResume] = useState(false);
@@ -14,7 +13,8 @@ function Resume() {
         className="flex items-center justify-center flex-col gap-5 font-mono"
       >
         <p className="text-3xl">
-          Here is my resume:
+          Thanks for scrolling.....
+          <br /> Here is my resume:
           <span className="text-4xl text-center">&#9787;</span>
         </p>
         <a
@@ -38,6 +38,12 @@ function Resume() {
             <i class="fas fa-file-alt"></i>
           </span>
         </h1>
+        <img
+          src="https://www.theladders.com/wp-content/uploads/fouraudiences-resume.png"
+          alt="resume-img"
+          width={800}
+          height={800}
+        ></img>
         <div
           class="fixed bottom-20 left-1/2 transform -translate-x-1/2 text-4xl text-gray-700 cursor-pointer"
           onClick={scrollToResume}
