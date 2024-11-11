@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Nav from "../Nav/Nav";
 import "./Resume.css";
 function Resume() {
@@ -7,13 +7,10 @@ function Resume() {
     setShowResume(true);
   }
   function ResumePage() {
-    useEffect(() => {
-      document.getElementById("ResumePage").style.animation = "";
-    }, []);
     return (
       <div
         id="ResumePage"
-        className="flex items-center justify-center flex-col gap-5 font-mono"
+        className={`flex items-center justify-center flex-col gap-5 font-mono`}
       >
         <p className="text-3xl">
           Thanks for scrolling.....
