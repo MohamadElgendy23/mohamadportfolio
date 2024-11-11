@@ -41,9 +41,10 @@ function Resume() {
         <img
           src="https://www.theladders.com/wp-content/uploads/fouraudiences-resume.png"
           alt="resume-img"
-          width={800}
-          height={800}
+          width={700}
+          height={650}
         ></img>
+        <p className="mt-10">Scroll down to see resume! :)</p>
         <div
           class="fixed bottom-20 left-1/2 transform -translate-x-1/2 text-4xl text-gray-700 cursor-pointer"
           onClick={scrollToResume}

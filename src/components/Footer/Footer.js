@@ -9,13 +9,17 @@ function Footer() {
     <div>
       <div className="flex items-center justify-center gap-12 mt-8">
         <div>
-          <i class="fas fa-mobile-alt text-3xl" title="(385) 576-8791"></i>
+          <a href="/">
+            <i class="fas fa-mobile-alt text-3xl" title="(385) 576-8791"></i>
+          </a>
         </div>
         <div>
-          <i
-            class="fa fa-envelope text-3xl"
-            title="mohamadelgendy13@gmail.com"
-          ></i>
+          <a href="/">
+            <i
+              class="fa fa-envelope text-3xl"
+              title="mohamadelgendy13@gmail.com"
+            ></i>
+          </a>
         </div>
         <div>
           <a href="https://github.com/MohamadElgendy23" target="blank">
