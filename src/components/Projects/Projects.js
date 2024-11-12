@@ -17,7 +17,7 @@ function Projects() {
           className="flex items-center justify-center flex-col gap-10"
           id="projects"
         >
-          <div id="project1">
+          <div id="project1" className="border-2 border-black border-solid">
             <h2 className="font-bold mb-3">Hospital Management Application</h2>
             <span className="text-2xl text-blue-800">&#63;</span>
             <p className="text-center">
@@ -37,13 +37,14 @@ function Projects() {
               </a>
             </p>
           </div>
-          <div id="project2">
+          <div id="project2" className="border-2 border-black border-solid">
             <h2 className="font-bold mb-3">Roster Viewer</h2>
             <span className="text-2xl text-blue-800">&#63;</span>
             <p className="text-center">
               Aesthetic application created in React.js, JS, HTML, and CSS where{" "}
               <br />
               users can view available NBA teams and each team's roster.
+              Utilizes API's for live NBA data.
             </p>
             <p className="text-center pt-5">
               <a
@@ -65,7 +66,7 @@ function Projects() {
               </a>
             </p>
           </div>
-          <div id="project3">
+          <div id="project3" className="border-2 border-black border-solid">
             <h2 className="font-bold mb-3">
               Flixforall - All in One Movie App
             </h2>
