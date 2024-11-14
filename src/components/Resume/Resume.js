@@ -25,7 +25,7 @@ function Resume() {
           className="text-blue-500 underline"
           onClick={viewResume}
         >
-          View My Resume (PDF)
+          View My Resume
         </a>
         <div className={`resumeImage ${isVisible ? "visible" : ""}`}>
           <img src="../images/Resume.jpeg" alt="resume"></img>
