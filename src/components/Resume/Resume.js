@@ -28,7 +28,7 @@ function Resume() {
           View My Resume (PDF)
         </a>
         <div className={`resumeImage ${isVisible ? "visible" : ""}`}>
-          <img src="public/images/Resume.jpeg" alt="resume"></img>
+          <img src="../images/Resume.jpeg" alt="resume"></img>
         </div>
       </div>
     </div>
