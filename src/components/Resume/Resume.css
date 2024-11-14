@@ -1,28 +1,21 @@
-html {
-  scroll-behavior: smooth;
+.resumeImage {
+display: none;
+margin-top: 20px;
+opacity: 0;
+transform: translateY(-20px);
+transition: transform 0.5s ease-out, opacity 0.5s ease-out;
 }
 
-@keyframes bounce {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(10px); /* Bounce down by 10px */
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-
-#down-arrow {
-    animation: bounce 1s infinite alternate;
+.resumeImage.visible {
+  display: block;
+  transform: translateY(20px);
+  opacity: 1;
 }
 
-#ResumePage {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
+.resumeImage img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
