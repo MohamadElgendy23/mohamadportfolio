@@ -2,6 +2,11 @@ import React, { useEffect } from "react";
 import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 import "./About.css";
+import image1 from "../../images/DescriptionImage1.JPG";
+import image2 from "../../images/DescriptionImage2.JPG";
+import image3 from "../../images/DescriptionImage3.JPG";
+import image4 from "../../images/DescriptionImage4.JPG";
+
 const descriptionWordsArr = [
   "A Full Stack Developer",
   "A Basketball Fan",
@@ -9,12 +14,7 @@ const descriptionWordsArr = [
   "An Egyptian",
 ];
 
-const descriptionImagesArr = [
-  "../images/DescriptionImage1.JPG",
-  "../images/DescriptionImage2.JPG",
-  "../images/DescriptionImage3.JPG",
-  "../images/DescriptionImage4.JPG",
-];
+const descriptionImagesArr = [image1, image2, image3, image4];
 
 function About() {
   useEffect(() => {
