@@ -51,29 +51,31 @@ function About() {
     showNextContent();
   }, []);
   return (
-    <div className="About">
-      <Nav></Nav>
-      <div className="flex items-center justify-center flex-col font-mono mt-7">
-        <h1 className="font-bold italic text-2xl mb-2">
+    <div className="About min-h-screen flex flex-col">
+      <Nav />
+      <div className="flex flex-col items-center justify-center font-mono mt-7 px-4 sm:px-6 lg:px-0">
+        <h1 className="font-bold italic text-2xl sm:text-3xl mb-4 text-center">
           About Me <span className="not-italic">&#129332;</span>
         </h1>
-        <div className="flex items-center justify-center flex-col gap-5">
-          I am ......
-          <span id="description" className="description"></span>
+        <div className="flex flex-col items-center justify-center gap-5 max-w-4xl text-center">
+          <p className="text-base sm:text-lg">
+            I am <span className="description font-semibold"></span>
+          </p>
           <img
-            src="/Users/mohamadelgendy/Desktop/mohamadportfolio/public/images/DescriptionImage1.JPG"
-            alt="img"
-            className="Image"
-            width={250}
-          ></img>
-          <div className="flex items-center justify-center flex-col max-w-screen-lg bg-slate-400 gap-7 pb-7">
+            src={image1}
+            alt="description"
+            className="Image rounded-lg w-48 sm:w-64 md:w-80 transition-all duration-500"
+          />
+          <div className="flex flex-col items-center justify-center bg-slate-400 gap-4 p-5 rounded-lg mt-5 w-full sm:w-4/5 lg:w-3/5">
             <i className="fa-solid fa-circle-info fa-beat-fade text-2xl mt-2"></i>
-            <h3>Full Stack Developer</h3>
-            <p>
+            <h3 className="font-bold text-lg sm:text-xl">
+              Full Stack Developer
+            </h3>
+            <p className="text-sm sm:text-base">
               React | Node | Express | MongoDB | JavaScript | HTML | CSS |
               Python
             </p>
-            <p>
+            <p className="text-sm sm:text-base">
               Full Stack Developer with experience in multiple languages and
               frameworks such as React, Node, Express, MongoDB, JavaScript,
               HTML, CSS, and Python. My curiosity and continuous learning spirit
